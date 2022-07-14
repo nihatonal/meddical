@@ -1,0 +1,177 @@
+.appointment-wrapper {
+  width: 1366px;
+  height: 573px;
+  background: linear-gradient(
+      rgba(252, 254, 254, 0.8) 100%,
+      rgba(252, 254, 254, 0.8) 100%
+    ),
+    url("../../assets/images/doctor_scaled.svg");
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.appointment-head {
+  width: 407px;
+  height: 163px;
+}
+.apponinment-title {
+  width: 351px;
+  color: #159eec;
+}
+.apponinment-desc {
+  width: 407px;
+  height: 110px;
+  text-align: left;
+  margin-top: 16px;
+}
+.appointment-form {
+  width: 491px;
+  height: 445px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 0px 5px 5px;
+}
+.appointment-form-inputs {
+  width: 491px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+
+.droplist-item .droplist-item_label_info_fix {
+  padding-top: 0;
+}
+
+.date_input {
+  pointer-events: none;
+}
+.date-wrapper {
+  width: 205px;
+  display: flex;
+  justify-content: space-between;
+}
+.calendar-wrapper {
+  width: 245px;
+  height: 50px;
+  background: #1F2B6C;
+  border-bottom: 1px solid #bfd2f8;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fcfefe;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.calendar-wrapper:hover {
+  background: #bfd2f8;
+  color: #1F2B6C;
+}
+.react-calendar {
+  width: 350px;
+  max-width: 100%;
+  background: white;
+}
+
+.react-calendar .react-calendar__tile--now {
+  background: #1F2B6C;
+  color: #fcfefe;
+}
+
+.textarea {
+  height: 190px;
+  width: 100%;
+  background: #1F2B6C;
+  resize: none;
+  border: none;
+  outline: none;
+  padding: 16px 0 0 20px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fcfefe;
+  cursor: pointer;
+}
+.btn-submit {
+  height: 50px;
+  width: 100%;
+  background: #bfd2f8;
+  border-radius: 0px 0px 5px 5px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #1F2B6C;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.btn-submit:hover {
+  background: #159eec;
+}
+.label {
+  background-color: #1F2B6C;
+}
+
+@media screen and (max-width: 600px) {
+  .appointment-wrapper {
+    width: 375px;
+    height: 1001px;
+    background: linear-gradient(
+        rgba(252, 254, 254, 0.8) 100%,
+        rgba(252, 254, 254, 0.8) 100%
+      ),
+      url("../../assets/images/doctor_appointment_mobile.svg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .appointment-head {
+    width: 343px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .apponinment-title {
+    width: 263px;
+    height: 28px;
+  }
+  .apponinment-desc {
+    width: 343px;
+    height: 132px;
+    text-align: center;
+  }
+  .appointment-form {
+    width: 343px;
+    height: 649px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 5px 5px;
+  }
+  .appointment-form-inputs {
+    width: 343px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .date-wrapper {
+    width: 303px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .calendar-wrapper {
+    width: 343px;
+  }
+}

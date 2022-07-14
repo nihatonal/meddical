@@ -1,0 +1,141 @@
+.container_testimonials {
+  width: 1366px;
+  height: 253px;
+  margin-top: 40px;
+}
+.testimonial_content {
+  width: 1366px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonial_content p {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 140%;
+  text-align: center;
+  color: #fcfefe;
+}
+.testimonial_content-desc {
+  width: 658px;
+  height: 124px;
+}
+.testimonial_content-line {
+  width: 221px;
+  height: 1px;
+  background: #bfd2f8;
+}
+.carousel_btn-wrapper {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #f1cdb3;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.3s;
+  visibility: visible;
+  cursor: pointer;
+}
+
+/* .carousel_btn-wrapper:hover {
+  background: #fddcc4;
+  border-color: #fddcc4;
+} */
+
+.container_testimonials .button__bar {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  padding: 0;
+  background: none;
+  border-radius: 40px;
+  width: 74px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.container_testimonials .button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.container_testimonials .button__bar li button {
+  border: none;
+  background: #fcfefe;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 18px;
+  width: 18px;
+  border-radius: 100%;
+}
+
+.container_testimonials .button__bar li.slick-active button {
+  background-color: #bfd2f8;
+}
+
+.container_testimonials .button__bar li button:hover,
+.container_testimonials .button__bar li button:focus {
+  background: #bfd2f8;
+  outline: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .container_testimonials {
+    width: 375px;
+    height: 441px;
+    
+  }
+
+  .testimonial_content {
+    width: 375px;
+    height: 195px;
+  }
+  .testimonial_content p {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: #fcfefe;
+  }
+  .testimonial_content-desc {
+    width: 343px;
+    height: 124px;
+  }
+  .testimonial_content-line {
+    width: 221px;
+    height: 1px;
+    background: #bfd2f8;
+  }
+  .container_testimonials .button__bar {
+    margin-top: 16px;
+    width: 174px;
+  }
+  .container_testimonials .button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0;
+  }
+
+  .container_testimonials .button__bar li button {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+  }
+
+  .container_testimonials .activeSlide {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.nav-wrapper {
+  width: 493px;
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fcfefe;
+  text-decoration: none;
+  transition: all ease-in-out 0.2s;
+}
+
+.nav-item:hover {
+  color: #bfd2f8;
+}
+.active {
+  color: #bfd2f8;
+}
+@media screen and (max-width: 600px){
+  .nav-wrapper {
+    display: none
+  }
+  
+}

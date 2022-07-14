@@ -1,0 +1,127 @@
+.hero-container {
+  width: 1366px;
+  height: 250px;
+  position: relative;
+}
+.hero-container::before {
+  background-color: rgba(255, 255, 255, 0.5);
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.hero_content {
+  width: 350px;
+  height: 76px;
+  position: absolute;
+  top: 76px;
+  left: 187px;
+}
+
+.hero_content h1 {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: #1f2b6c;
+}
+.hero_content p {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1f2b6c;
+}
+.hero_line-wrapper {
+  width: 1366px;
+  height: 8px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+.hero_line:nth-child(1) {
+  width: 305px;
+  height: 8px;
+  background: #bfd2f8;
+}
+.hero_line:nth-child(2) {
+  width: 837px;
+  height: 8px;
+  background: #1f2b6c;
+}
+.hero_line:nth-child(3) {
+  width: 223px;
+  height: 8px;
+  background: #159eec;
+}
+.hero_elipses {
+  position: absolute;
+}
+
+@media screen and (max-width: 600px) {
+  .hero-container {
+    width: 375px;
+    height: 112px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero-container::before {
+    background-color: rgba(255, 255, 255, 0.5);
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+  .hero_image,
+  .hero_elipses {
+    width: 375px;
+    height: 112px;
+    transform: scale(1.6);
+   
+  }
+  .hero_content {
+    width: 275px;
+    height: 76px;
+    position: absolute;
+    top: 26px;
+    left: 37px;
+    z-index: 3;
+  }
+  .hero_content h1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .hero_content p {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .hero_line-wrapper {
+    width: 375px;
+    height: 6px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 12;
+  }
+  .hero_line:nth-child(1) {
+    width: 84px;
+    height: 6px;
+    background: #bfd2f8;
+  }
+  .hero_line:nth-child(2) {
+    width: 230px;
+    height: 6px;
+    background: #1f2b6c;
+  }
+  .hero_line:nth-child(3) {
+    width: 61px;
+    height: 6px;
+    background: #159eec;
+  }
+}

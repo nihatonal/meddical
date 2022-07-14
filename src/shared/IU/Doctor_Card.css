@@ -1,0 +1,113 @@
+.doctor_card-wrapper {
+  width: 317px;
+  height: 538px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.doctor_card-profile-img {
+  width: 317px;
+  height: 350px;
+  overflow: hidden;
+  transition: all ease-in-out 0.3s;
+}
+.doctor_card-profile-img img {
+  transition: all ease-in-out 0.2s;
+}
+.doctor_card-profile-img:hover > img {
+  transform: scale(1.05) translateY(10px);
+}
+.doctor_card-info {
+  width: 317px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #bfd2f8;
+}
+.doctor_card-info-name {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #1F2B6C;
+}
+.doctor_card-info-profession {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #1F2B6C;
+  margin: 8px 0 16px 0;
+}
+.doctor_card-info-links {
+  width: 112px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social-icon{
+  fill: #1F2B6C;
+}
+.social-icon:hover {
+  cursor: pointer;
+  fill: #159eec;
+}
+.doctor_card-btn {
+  width: 317px;
+  height: 46px;
+  background: #1F2B6C;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.doctor_card-btn a {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #bfd2f8;
+  text-decoration: none;
+  transition: all ease-in-out 0.2s;
+}
+.doctor_card-btn:hover {
+  background: #159eec;
+}
+.doctor_card-btn:hover a {
+  color: #1F2B6C;
+}
+
+@media screen and (max-width: 600px) {
+  .doctor_card-wrapper {
+    width: 254px;
+    height: 437px;
+  }
+  .doctor_card-profile-img {
+    width: 254px;
+    height: 281px;
+    overflow: hidden;
+    transition: all ease-in-out 0.3s;
+  }
+  .doctor_card-profile-img img {
+    width: 254px;
+    height: 281px;
+  }
+  .doctor_card-info {
+    width: 254px;
+    height: 110px;
+  }
+  .doctor_card-info-profession {
+    margin: 0 0 8px 0;
+  }
+  .doctor_card-btn {
+    width: 254px;
+  }
+}

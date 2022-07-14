@@ -1,0 +1,63 @@
+.container_multi {
+  width: 992px;
+  height: 378px;
+}
+.container_multi .slick-list{
+  width: 990px;
+  height: 328px;
+
+}
+/* .button__bar {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 40px;
+  min-width: 274px;
+  text-align: center;
+  margin-top: 32px;;
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 3px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  background: #bfd2f8;
+  color: transparent;
+  cursor: pointer;
+  display: block;
+  height: 18px;
+  width: 18px;
+  border-radius: 100%;
+}
+
+.button__bar li.slick-active button {
+  background-color: #1F2B6C;
+}
+
+.button__bar li button:hover,
+.button__bar li button:focus {
+  background: #1F2B6C;
+  outline: 0;
+} */
+
+@media screen and (max-width: 600px) {
+  .container_multi {
+    width: 343px;
+    height: 507px;
+    margin: 24px 0 48px 0;
+  }
+  .container_multi .slick-list{
+    width: 343px;
+    height: 507px;
+  
+  }
+
+}

@@ -1,0 +1,213 @@
+.footer {
+  width: 1366px;
+  height: 427px;
+  background: #1F2B6C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+.footer_content {
+  height: 216px;
+  width: 992px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #bfd2f8;
+}
+.footer_logo {
+  width: 240px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_logo-title {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #bfd2f8;
+}
+.footer_logo-subtitle {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #fcfefe;
+  width: 240px;
+}
+
+.footer_item {
+  width: 142px;
+  height: 169px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_item:nth-last-child(2) {
+  width: 234px;
+}
+.footer_item:nth-last-child(1) {
+  width: 272px;
+  height: 110px;
+}
+.footer_item-title {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fcfefe;
+}
+.footer_item-list {
+  width: 102px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_item-list-el {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fcfefe;
+  text-decoration: none;
+  width: 240px;
+}
+.footer_item-list-el:hover, .footer_item-list  .active {
+  text-decoration: underline;
+}
+
+.footer_item-input-wrapper {
+  position: relative;
+  width: 272px;
+  height: 50px;
+}
+.footer_item-input {
+  background: #bfd2f8;
+  border-radius: 5px;
+  padding-left: 10px;
+  width: 272px;
+  height: 50px;
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #1F2B6C;
+}
+.footer_item-input:hover {
+  box-shadow: 0 0 20px #159eec;
+}
+.footer_item-input:focus {
+  box-shadow: 0 0 20px #159eec;
+}
+.footer_item input::placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #1F2B6C;
+}
+
+.footer_item-input-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+.footer_bottom-content {
+  width: 992px;
+  height: 141px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 46px;
+}
+.footer-copyright {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fcfefe;
+}
+.footer-social-icons {
+  width: 112px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-social-icon {
+  fill: #bfd2f8;
+}
+.footer-social-icon:hover {
+  fill: #159eec;
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 375px;
+    height: 816px;
+    background: #1F2B6C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .footer_content {
+    height: 816px;
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #bfd2f8;
+    padding-bottom: 24px;
+  }
+  .footer_item {
+    width: 343px;
+    height: 150px;
+  }
+
+  .footer_item:nth-last-child(1) {
+    width: 343px;
+    height: 90px;
+  }
+  .footer_item-input-wrapper {
+    position: relative;
+    width: 343px;
+    height: 50px;
+  }
+  .footer_item-input {
+    width: 343px;
+  }
+  .footer_item-input-icon {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+  }
+  .footer_bottom-content {
+    width: 375px;
+    height: 141px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .footer-copyright {
+    text-align: center;
+    width: 343px;
+  }
+  .footer-social-icons {
+    order: -1;
+  }
+}

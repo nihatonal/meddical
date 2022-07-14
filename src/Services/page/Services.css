@@ -1,0 +1,131 @@
+.services-container {
+  position: relative;
+  width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services-content-wrapper {
+  width: 991px;
+  height: 1124px;
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.services-item-content {
+  margin-top: 56px;
+  padding-left: 20px;
+}
+.services-item {
+  width: 317px;
+  height: 552px;
+  border: 1px solid rgba(31, 43, 108, 0.1);
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+/* @keyframes anim_in {
+  0% {
+    width: 48px;
+    height: 48px;
+    top: 267px;
+    left: 217px;
+    border-radius: 50px;
+    background: rgba(31, 43, 108, 1);
+  }
+  100% {
+    height: 300px;
+    width: 317px;
+    top: 0;
+    left: 0;
+    border-radius: 5px 5px 0px 0px;
+    background: rgba(31, 43, 108, 0.8);
+  }
+}
+@keyframes anime_out {
+  0% {
+    width: 48px;
+    height: 48px;
+    top: 267px;
+    left: 217px;
+    border-radius: 50px;
+    background: rgba(31, 43, 108, 1);
+  }
+  100% {
+    height: 300px;
+    width: 317px;
+    top: 0;
+    left: 0;
+    border-radius: 5px 5px 0px 0px;
+    background: rgba(31, 43, 108, 0.8);
+  }
+} */
+
+.services-item:hover > .services-icon-wrapper {
+  height: 300px;
+  width: 317px;
+  background: rgba(31, 43, 108, 0.8);
+  border-radius: 5px 5px 0px 0px;
+  top: 0;
+  left: 0;
+  transition: all ease 500ms;
+  /* animation: anim_in 1s forwards; */
+}
+.services-item:hover > .services-icon-wrapper .services-icon {
+  width: 48px;
+  height: 48px;
+}
+.services-item-title {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1f2b6c;
+}
+.services-item p {
+  text-align: left;
+  width: 277px;
+}
+.service-btn {
+  margin-top: 16px;
+}
+.services-icon-wrapper {
+  height: 80px;
+  width: 80px;
+  background: #1f2b6c;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 267px;
+  left: 217px;
+}
+.services-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.services-icon path {
+  fill: #bfd2f8;
+}
+
+@media screen and (max-width: 600px) {
+  .services-container {
+    width: 375px;
+  }
+  .services-content-wrapper {
+    width: 317px;
+    height:auto;
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 10px;
+    align-items: center;
+  }
+
+}

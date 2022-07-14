@@ -1,0 +1,19 @@
+.testimonials-wrapper {
+  width: 1366px;
+  height: 441px;
+  background: linear-gradient(
+      rgba(31, 43, 108, 0.5) 100%,
+      rgba(31, 43, 108, 0.5) 100%
+    ),
+    url("../../assets/images/testimonial_bg.svg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .testimonials-wrapper {
+    width: 375px;
+    padding-top: 48px;
+  }
+}

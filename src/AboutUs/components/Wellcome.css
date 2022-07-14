@@ -1,0 +1,141 @@
+.wellcome-container {
+  width: 1366px;
+  height: 637px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wellcome_content-wrapper {
+  width: 992px;
+  height: 509px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wellcome_content {
+  width: 564px;
+  height: 509px;
+}
+.wellcome_content h1 {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: #1f2b6c;
+  margin: 8px 0 24px 0;
+}
+.wellcome_content h3 {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #159eec;
+}
+
+.wellcome_content ul {
+  width: 486px;
+  height: 107px;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 16px;
+  column-gap: 45px;
+  list-style-position: inside;
+  position: relative;
+  list-style: none;
+  margin-left: 0;
+}
+.wellcome_content ul li {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  color: #000000;
+}
+.wellcome_content ul li:before {
+  padding-right: 10px;
+  content: url(../../assets/icons/circle.svg);
+}
+
+.wellcome_content p {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #000000;
+  width: 564px;
+}
+.wellcome_content p:nth-last-child(2) {
+  margin: 32px 0 16px 0;
+}
+
+@media screen and (max-width: 600px) {
+  .wellcome-container {
+    width: 375px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 48px;
+  }
+  .wellcome_content-wrapper {
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .wellcome_content-wrapper img{
+      width: 375px;
+      margin: 48px 0 48px 0;
+  }
+  .wellcome_content {
+    width: 375px;
+    height: auto;
+  }
+  .wellcome_content h1 {
+    font-size: 32px;
+    line-height: 44px;
+    margin: 8px 0 24px 0;
+  }
+  .wellcome_content h3 {
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0.16em;
+  }
+  .wellcome_content p {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #000000;
+    width: 375px;
+  }
+  .wellcome_content ul {
+    width: 375px;
+    height: 210px;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 14px;
+    column-gap: 45px;
+    list-style-position: inside;
+    position: relative;
+    list-style: none;
+    margin-left: 0;
+  }
+  .wellcome_content ul li {
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #000000;
+  }
+}

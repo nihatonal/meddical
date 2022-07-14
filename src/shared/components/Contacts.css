@@ -1,0 +1,111 @@
+.contacts-wrapper {
+  height: 491px;
+  width: 1366px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact-head {
+  width: 197px;
+  height: 63px;
+  text-align: center;
+}
+.contacts-items-wrapper {
+  width: 992px;
+  height: 233px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-item {
+  width: 233px;
+  height: 233px;
+  background: #bfd2f8;
+  border-radius: 5px;
+  padding: 52px 0 0 26px;
+  cursor: pointer;
+}
+.contacts-item-content {
+  width: 148px;
+  height: 131px;
+}
+.contacts-item-title {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #1F2B6C;
+  margin-top: 14px;
+  width: 180px;
+}
+
+.contacts-item-text {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #1F2B6C;
+  width: 200px;
+  text-decoration: none;
+}
+.contacts-item-text:nth-last-child(2) {
+  margin: 8px 0 5px;
+}
+.contacts-item:hover {
+  background: #1F2B6C;
+  border-radius: 5px;
+}
+.contacts-item:hover p,
+.contacts-item:hover h4,
+.contacts-item:hover a {
+  color: #bfd2f8;
+}
+.contacts-item svg path {
+  stroke: #1F2B6C;
+}
+.contacts-item:hover svg path {
+  stroke: #bfd2f8;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts-wrapper {
+    height: 650px;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contact-head {
+    width: 148px;
+    height: 52px;
+    text-align: center;
+  }
+  .contacts-items-wrapper {
+    width: 375px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contacts-item {
+    width: 300px;
+    height: 120px;
+    padding: 10px 0 0 26px;
+  }
+  .contacts-item-content {
+    width: 250px;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contacts-item-title {
+    margin-top: 8px;
+    margin-left: 6px;
+    width: 180px;
+  }
+}

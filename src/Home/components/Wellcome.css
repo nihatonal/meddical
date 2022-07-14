@@ -1,0 +1,118 @@
+.wellcome-wrapper {
+  width: 1366px;
+  height: 636px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.wellcome-content {
+  width: 658px;
+  height: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 61px;
+}
+.wellcome-title {
+  margin: 8px 0 15px 0;
+}
+.wellcome-desc {
+  width: 658px;
+  height: 66px;
+}
+.wellcome-btn {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #159eec;
+  text-decoration: none;
+  width: 110px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.wellcome-img-wrapper {
+  position: relative;
+}
+.wellcome-line-wrapper {
+  position: absolute;
+  width: 992px;
+  height: 8px;
+  display: flex;
+  bottom: 0;
+}
+.wellcome-line {
+  width: 222px;
+  height: 8px;
+  background: #bfd2f8;
+}
+.line_2 {
+  background: #1F2B6C;
+  width: 608px;
+}
+.line_3 {
+  background: #159eec;
+  width: 162px;
+}
+
+@media screen and (max-width: 600px) {
+  .wellcome-wrapper {
+    width: 375px;
+    height: 552px;
+    justify-content: center;
+  }
+  .wellcome-content {
+    width: 343px;
+    height: 258px;
+    margin-bottom: 48px;
+  }
+  .wellcome-title {
+    margin: 8px 0 8px 0;
+    width: 214px;
+    text-align: center;
+  }
+  .wellcome-desc {
+    width: 343px;
+    height: 132px;
+  }
+  .wellcome-btn {
+    margin-top: 16px;
+    transition: color ease-in-out;
+  }
+  .wellcome-btn:hover {
+    color:#1F2B6C;
+  }
+  .wellcome-img-wrapper {
+    position: relative;
+    width: 375px;
+    height: 150px;
+  }
+  .wellcome-line-wrapper {
+    position: absolute;
+    width: 375px;
+    height: 8px;
+    display: flex;
+    bottom: 0;
+  }
+  .wellcome-img-wrapper img {
+    width: 375px;
+  }
+  .wellcome-line {
+    width: 84px;
+    height: 8px;
+    background: #bfd2f8;
+  }
+  .line_2 {
+    background: #1F2B6C;
+    width: 230px;
+  }
+  .line_3 {
+    background: #159eec;
+    width: 61px;
+  }
+}

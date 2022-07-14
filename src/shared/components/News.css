@@ -1,0 +1,32 @@
+.news-wrapper {
+  width: 1366px;
+  height: 636px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.news-head {
+  width: 462px;
+}
+.news-title {
+  width: 462px;
+}
+@media screen and (max-width: 600px) {
+  .news-wrapper {
+    width: 375px;
+    height: 636px;
+  }
+  .news-head {
+    width: 203px;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin:0;
+  }
+  .news-title {
+    width: 223px;
+  }
+}

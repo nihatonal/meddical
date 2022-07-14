@@ -1,0 +1,19 @@
+.btn-like {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212124;
+  width: 39px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  background:transparent;
+}
+.faheart {
+    color: #e2315c;
+  }
