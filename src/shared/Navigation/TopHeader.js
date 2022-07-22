@@ -1,5 +1,5 @@
 import React from "react";
-
+import { ReactSVG } from "react-svg";
 import phone from "../../assets/icons/phone.svg";
 import clock from "../../assets/icons/clock.svg";
 import place from "../../assets/icons/place.svg";
@@ -9,7 +9,7 @@ const TopHeader = (props) => {
   return (
     <div className={`topHeader ${props.className}`}>
       <div className="topHeader-item">
-        <img src={phone} alt="phone" />
+        <ReactSVG src={phone} className="phone" />
         <div className="topHeader-item_content">
           <p className="topHeader-item_name">Emergency</p>
           <p className="topHeader-item-text">(237) 681-812-255</p>

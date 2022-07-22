@@ -27,14 +27,20 @@
   font-size: 48px;
   line-height: 55px;
   color: #1f2b6c;
+  width: 250px;
 }
-.hero_content p {
+.hero_content-title {
+  display: flex;
+}
+.hero_content p,
+.hero_link {
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 140%;
   color: #1f2b6c;
+  text-decoration: none;
 }
 .hero_line-wrapper {
   width: 1366px;
@@ -83,7 +89,6 @@
     width: 375px;
     height: 112px;
     transform: scale(1.6);
-   
   }
   .hero_content {
     width: 275px;
@@ -97,7 +102,8 @@
     font-size: 32px;
     line-height: 45px;
   }
-  .hero_content p {
+  .hero_content p,
+  .hero_link {
     font-size: 16px;
     line-height: 120%;
   }
@@ -123,5 +129,8 @@
     width: 61px;
     height: 6px;
     background: #159eec;
+  }
+  .hero_info {
+    display: none;
   }
 }

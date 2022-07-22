@@ -1,0 +1,199 @@
+.appointment-container {
+  width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.appointment_content {
+  width: 992px;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  margin: 64px 0 64px 0;
+}
+.appointment-schedule {
+  width: 481px;
+  height: 650px;
+  background: #1f2b6c;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.appointment_content h1 {
+  font-family: "Yeseva One", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  color: #bfd2f8;
+}
+.appointment-schedule_items {
+  width: 381px;
+  height: 325.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 51px 0 32px 0;
+}
+.appointment-schedule_item {
+  width: 381px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.appointment-schedule_item-tire {
+  height: 2px;
+  width: 19.5px;
+  background: #bfd2f8;
+}
+.appointment-schedule_item p {
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #fcfefe;
+}
+.appointment-schedule_item-name {
+  font-size: 18px;
+  width: 100px;
+}
+.appointment-schedule_item-time {
+  font-size: 16px;
+}
+.appointment-schedule_line {
+  height: 2px;
+  background: #bfd2f8;
+  width: 331px;
+  margin-bottom: 32px;
+}
+.appointment-schedule .topHeader-item {
+  width: 290px;
+  height: 60px;
+  justify-content: flex-start;
+}
+.appointment-schedule .topHeader-item_content {
+  margin-left: 8px;
+}
+.appointment-schedule .topHeader-item_name {
+  color: #fcfefe;
+  font-size: 26px;
+  line-height: 30px;
+}
+.appointment-schedule .topHeader-item-text {
+  color: #bfd2f8;
+  font-size: 26px;
+  line-height: 30px;
+  text-decoration: none;
+}
+.appointment-schedule .phone {
+  height: 47px;
+  width: 51px;
+}
+.appointment-schedule .phone path,
+.appointment-schedule .phone .avize {
+  stroke: #bfd2f8;
+}
+.appointment_content .appointment-wrapper {
+  width: 491px;
+  height: 650px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.appointment_content .appointment-head {
+  width: 491px;
+  height: 141px;
+}
+.appointment_content .apponinment-desc {
+  width: 491px;
+}
+.appointment_content .apponinment-title {
+  color: #1f2b6c;
+}
+.appointment-container .maps {
+  width: 992px;
+  height: 450px;
+}
+
+@media screen and (max-width: 600px) {
+  .appointment-container {
+    width: 375px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .appointment_content {
+    width: 375px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 48px 0 0 0;
+  }
+  .appointment-schedule {
+    width: 343px;
+    height: 600px;
+    background: #1f2b6c;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+  }
+  .appointment_content .appointment-wrapper {
+    width: 375px;
+    height: auto;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .appointment_content .appointment-head {
+    width: 343px;
+    height: 200px;
+  }
+  .appointment_content .apponinment-desc {
+    width: 343px;
+    text-align: justify;
+    margin-bottom: 24px;
+  }
+  .appointment-schedule_items {
+    width: 300px;
+    height: 325.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 32px 0 16px 0;
+  }
+  .appointment-schedule_item {
+    width: 300px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .appointment_content h1 {
+    font-size: 38px;
+    line-height: 45px;
+  }
+  .appointment-schedule_line {
+    height: 2px;
+    background: #bfd2f8;
+    width: 331px;
+    margin-bottom: 16px;
+  }
+  .appointment-container .maps {
+    width: 343px;
+    margin-top:48px;
+  }
+}

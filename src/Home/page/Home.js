@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import { useNavigate } from "react-router-dom";
 import Hero from "../components/Hero";
 import Wellcome from "../components/Wellcome";
 import Services from "../components/Services";
@@ -9,15 +9,27 @@ import Doctors from "../../shared/components/Doctors";
 import News from "../../shared/components/News";
 import Contacts from "../../shared/components/Contacts";
 
+import { News_Data } from "../../assets/News_Data";
 import calendar from "../../assets/icons/calendar.svg";
 import team from "../../assets/icons/team.svg";
 import cash from "../../assets/icons/cash.svg";
 import "./Home.css";
 
 const Home = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0 });
   }, []);
+
+  const newsHandler = (e)=>{
+    const filtered = News_Data.filter((news) => {
+      return news.id === e.target.id;
+    });
+    navigate("/news/singlenew", {
+      state: filtered,
+    });
+    console.log(filtered)
+  }
   return (
     <div className="home-wrapper">
       <Hero />
@@ -26,7 +38,7 @@ const Home = () => {
       <Specialties />
       <Appointment />
       <Doctors />
-      <News />
+      <News onClick ={newsHandler}/>
       <Contacts />
 
       <div className="hero-content-book">

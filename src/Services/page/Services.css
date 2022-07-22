@@ -25,7 +25,10 @@
   border: 1px solid rgba(31, 43, 108, 0.1);
   border-radius: 5px;
   position: relative;
-  cursor: pointer;
+}
+.services-item_image{
+  width:317px;
+  height: 300px;
 }
 /* @keyframes anim_in {
   0% {
@@ -120,12 +123,11 @@
   }
   .services-content-wrapper {
     width: 317px;
-    height:auto;
+    height: auto;
     margin-top: 48px;
     display: grid;
     grid-template-columns: auto;
     row-gap: 10px;
     align-items: center;
   }
-
 }

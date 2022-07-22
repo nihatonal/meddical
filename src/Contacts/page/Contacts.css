@@ -1,0 +1,96 @@
+.contacts-container {
+  position: relative;
+  width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.map {
+  margin-top: 64px;
+}
+.contacts-container_content {
+  position: relative;
+  width: 992px;
+  height: 486px;
+  margin: 64px 0 0 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.contacts-container_content .contacts-wrapper {
+  height: 486px;
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contacts-container_content .contact-head {
+  width: 197px;
+  height: 63px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.contacts-container_content .contacts-items-wrapper {
+  width: 486px;
+  height: 486px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+@media screen and (max-width: 600px) {
+  .contacts-container {
+    width: 375px;
+    height:auto;
+    margin-bottom:48px;
+  }
+  .map {
+    width: 343px;
+    margin-top: 48px;
+  }
+  .contacts-container_content {
+    position: relative;
+    width: 375px;
+    height: 1024px;
+    margin: 48px 0 0 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 48px;
+  }
+  .contacts-container_content .contacts-wrapper {
+    height: 486px;
+    width: 375px;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .contacts-container_content .contact-head {
+    width: 197px;
+    height: 63px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .contacts-container_content .contacts-items-wrapper {
+    width: 375px;
+    height: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contacts-container_content .contact-head {
+    width: 378px;
+    height: 63px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

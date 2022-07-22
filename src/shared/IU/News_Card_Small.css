@@ -8,6 +8,14 @@
   margin-bottom: 20px;
   cursor: pointer;
 }
+.news_card_small-image-wrapper {
+  pointer-events: none;
+}
+.news_card_small-image {
+  width: 160px;
+  height: 154px;
+  pointer-events: none;
+}
 .news_card_small-wrapper:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
 }
@@ -15,6 +23,7 @@
   width: 283px;
   height: 114px;
   margin-left: 20px;
+  pointer-events: none;
 }
 .news_card_small-date {
   font-family: "Work Sans", sans-serif;
@@ -37,6 +46,7 @@
   width: 86px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .news_card_small-status-item {
   font-family: "Work Sans", sans-serif;

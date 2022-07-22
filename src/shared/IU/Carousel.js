@@ -22,7 +22,7 @@ const Carousel = (props) => {
     swipeToSlide: true,
     slidesToShow: 3,
     slidesToScroll: 3,
-    initialSlide: 0,
+    initialSlide: 3,
     className: "slide",
     beforeChange: (current, next) => {
       console.log(next);

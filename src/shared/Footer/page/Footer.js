@@ -110,17 +110,17 @@ const Footer = () => {
             network="linkedin"
             style={{ height: 24, width: 24 }}
             className="footer-social-icon"
-            bgColor="#BFD2F8;"
+            bgColor="#BFD2F8"
           />
           <SocialIcon
             network="facebook"
-            bgColor="#BFD2F8;"
+            bgColor="#BFD2F8"
             style={{ height: 24, width: 24 }}
             className="footer-social-icon"
           />
           <SocialIcon
             network="instagram"
-            bgColor="#BFD2F8;"
+            bgColor="#BFD2F8"
             style={{ height: 24, width: 24 }}
             className="footer-social-icon"
           />

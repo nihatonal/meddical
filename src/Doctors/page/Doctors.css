@@ -1,0 +1,27 @@
+.doctors-container {
+  width: 1366px;
+  margin: 0 auto;
+}
+.doctors_content {
+  width: 992px;
+  height: auto;
+  margin: 64px 187px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .doctors-container {
+    width: 375px;
+    margin: 0 auto;
+  }
+  .doctors_content {
+    width: 375px;
+    height: auto;
+    margin: 48px 60.5px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+}

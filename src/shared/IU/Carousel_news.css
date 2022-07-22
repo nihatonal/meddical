@@ -7,6 +7,9 @@
   height: 328px;
 
 }
+.container_multi .button__bar{
+  width:250px;
+}
 /* .button__bar {
   display: inline-block;
   vertical-align: middle;

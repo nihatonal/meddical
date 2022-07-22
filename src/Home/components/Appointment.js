@@ -14,8 +14,8 @@ import Input from "../../shared/FormElements/Input";
 import Select from "../../shared/FormElements/Select";
 import OutsideClickHandler from "../../shared/util/OutsideClickHandler";
 
-import { RiArrowDownSLine } from "react-icons/ri";
-import { RiArrowUpSLine } from "react-icons/ri";
+import { FaChevronDown } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa";
 
 import "./Appointment.css";
 import "react-calendar/dist/Calendar.css";
@@ -48,6 +48,10 @@ const Appointment = () => {
         isValid: false,
       },
       time: {
+        value: "",
+        isValid: false,
+      },
+      message: {
         value: "",
         isValid: false,
       },
@@ -144,18 +148,18 @@ const Appointment = () => {
                 <p className="date-wrapper">
                   {moment(date).format("DD/MM/YYYY")}
                   {!show ? (
-                    <RiArrowDownSLine />
+                    <FaChevronDown />
                   ) : (
-                    <RiArrowUpSLine onClick={() => setShow(false)} />
+                    <FaChevronUp onClick={() => setShow(false)} />
                   )}
                 </p>
               ) : (
                 <p className="date-wrapper">
                   Date
                   {!show ? (
-                    <RiArrowDownSLine />
+                    <FaChevronDown />
                   ) : (
-                    <RiArrowUpSLine onClick={() => setShow(false)} />
+                    <FaChevronUp onClick={() => setShow(false)} />
                   )}
                 </p>
               )}

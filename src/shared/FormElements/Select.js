@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import OutsideClickHandler from "../util/OutsideClickHandler";
-import { RiArrowDownSLine } from "react-icons/ri";
-import { RiArrowUpSLine } from "react-icons/ri";
+import { FaChevronDown } from "react-icons/fa";
+import { FaChevronUp } from "react-icons/fa";
 import "./Select.css";
 
 const Select = (props) => {
@@ -33,7 +33,7 @@ const Select = (props) => {
         >
           {props.value}
           {props.selected}
-          {!showList ? <RiArrowDownSLine />: <RiArrowUpSLine />}
+          {!showList ? <FaChevronDown />: <FaChevronUp />}
         </p>
         {showList && (
           <div id="droplist" className="droplist-container">

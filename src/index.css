@@ -10,7 +10,7 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 37px;
-  color: #1F2B6C;
+  color: #1f2b6c;
 }
 .content-sub-title {
   font-family: "Work Sans", sans-serif;
@@ -33,6 +33,11 @@
 }
 .display_none {
   display: none;
+}
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 600px) {
   .display_none_mobile {

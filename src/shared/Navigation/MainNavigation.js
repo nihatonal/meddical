@@ -96,6 +96,7 @@ const MainNavigation = () => {
         }
         // onClickNav={}
         onClickNavItem={handleToggle}
+        onClick={handleToggle}
       />
     </MainHeader>
   );

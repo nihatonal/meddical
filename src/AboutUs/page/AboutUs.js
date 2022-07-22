@@ -4,7 +4,7 @@ import Doctors from "../../shared/components/Doctors";
 import News from "../../shared/components/News";
 import Contacts from "../../shared/components/Contacts";
 import doctors from "../../assets/images/hero_doctors.svg";
-import Hero from "../../shared/IU/Hero";
+import Hero from "../../shared/components/Hero";
 import Testimonials from "../../shared/components/Testimonials";
 import Wellcome from "../components/Wellcome";
 
@@ -16,7 +16,7 @@ const AboutUs = () => {
   }, []);
   return (
     <div className="about-container">
-      <Hero title="About us" subtitle="Home / About" image={doctors} />
+      <Hero title="About us" subtitle="About" image={doctors} />
       <Wellcome />
       <Testimonials />
       <Doctors />

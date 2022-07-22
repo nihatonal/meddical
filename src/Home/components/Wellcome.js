@@ -19,7 +19,7 @@ const Wellcome = () => {
           tortor augue. Velit nascetur proin massa in. Consequat faucibus
           porttitor enim et.
         </p>
-        <NavLink className="wellcome-btn" to="/more">
+        <NavLink className="wellcome-btn" to="/aboutus">
           Learn More
           <img src={arrow} alt="arrow" />
         </NavLink>

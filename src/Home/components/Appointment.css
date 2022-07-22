@@ -38,7 +38,6 @@
   grid-template-columns: auto auto;
 }
 
-
 .droplist-item .droplist-item_label_info_fix {
   padding-top: 0;
 }
@@ -54,7 +53,7 @@
 .calendar-wrapper {
   width: 245px;
   height: 50px;
-  background: #1F2B6C;
+  background: #1f2b6c;
   border-bottom: 1px solid #bfd2f8;
   font-family: "Work Sans", sans-serif;
   font-style: normal;
@@ -70,7 +69,7 @@
 }
 .calendar-wrapper:hover {
   background: #bfd2f8;
-  color: #1F2B6C;
+  color: #1f2b6c;
 }
 .react-calendar {
   width: 350px;
@@ -79,14 +78,14 @@
 }
 
 .react-calendar .react-calendar__tile--now {
-  background: #1F2B6C;
+  background: #1f2b6c;
   color: #fcfefe;
 }
 
 .textarea {
   height: 190px;
   width: 100%;
-  background: #1F2B6C;
+  background: #1f2b6c;
   resize: none;
   border: none;
   outline: none;
@@ -102,7 +101,7 @@
 .btn-submit {
   height: 50px;
   width: 100%;
-  background: #bfd2f8;
+  background: #1f2b6c;
   border-radius: 0px 0px 5px 5px;
   font-family: "Work Sans", sans-serif;
   font-style: normal;
@@ -110,16 +109,18 @@
   font-size: 16px;
   line-height: 140%;
   text-align: center;
-  color: #1F2B6C;
+  color: #fcfefe;
   outline: none;
   border: none;
   cursor: pointer;
+  border-top: 1px solid #bfd2f8;
 }
 .btn-submit:hover {
-  background: #159eec;
+  background: #bfd2f8;
+  color: #1f2b6c;
 }
 .label {
-  background-color: #1F2B6C;
+  background-color: #1f2b6c;
 }
 
 @media screen and (max-width: 600px) {

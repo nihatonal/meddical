@@ -18,19 +18,19 @@ const DoctorCard = (props) => {
         <div className="doctor_card-info-links">
           <SocialIcon
             network="linkedin"
-            bgColor="#1F2B6C;"
+            bgColor="#1F2B6C"
             style={{ height: 24, width: 24 }}
             className="social-icon"
           />
           <SocialIcon
             network="facebook"
-            bgColor="#1F2B6C;"
+            bgColor="#1F2B6C"
             style={{ height: 24, width: 24 }}
             className="social-icon"
           />
           <SocialIcon
             network="instagram"
-            bgColor="#1F2B6C;"
+            bgColor="#1F2B6C"
             style={{ height: 24, width: 24 }}
             className="social-icon"
           />

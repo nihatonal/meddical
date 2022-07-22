@@ -5,16 +5,16 @@ import "./News_Card_Small.css";
 
 const NewsCardSmall = (props) => {
   return (
-    <div className="news_card_small-wrapper">
-      <div>
-        <img src={props.image} alt="news" />
+    <div id={props.id} className="news_card_small-wrapper" onClick={props.onClick}>
+      <div className="news_card_small-image-wrapper">
+        <img className="news_card_small-image" src={props.image} alt="news" />
       </div>
       <div className="news_card_small-content">
         <p className="news_card_small-date">
           {props.date} | {props.author}
         </p>
         <p className="news_card_small-desc">
-        {props.desc}
+        {props.sum}
         </p>
         <div className="news_card_small-status">
           <p className="news_card_small-status-item"><FaEye className="faeye" /> {props.see} </p>

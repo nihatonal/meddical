@@ -7,7 +7,7 @@ const SideMenu = (props) => {
   return (
     <div className="side-menu-wrapper" style={props.style}>
       <NavLinks className="side-menu-navlinks" onClickNav={props.onClickNav} onClickNavItem={props.onClickNavItem} />
-      <NavLink className="btn-appointment_mobile" to="/appointment">
+      <NavLink className="btn-appointment_mobile" to="/appointment" onClick={props.onClickNavItem}>
         Appointment
       </NavLink>
     </div>

@@ -4,7 +4,7 @@ import { News_Data } from "../../assets/News_Data";
 import NewsCardSmall from "../../shared/IU/NewsCardSmall";
 import "./News.css";
 
-const News = () => {
+const News = (props) => {
 
   return (
     <div className="news-wrapper">
@@ -22,8 +22,10 @@ const News = () => {
             author={item.author}
             likes={item.like}
             see={item.see}
-            desc={item.desc}
+            sum={item.sum}
             image={item.image}
+            onClick={props.onClick}
+            id={item.id}
           />
         ))}
       </CarouselNews>

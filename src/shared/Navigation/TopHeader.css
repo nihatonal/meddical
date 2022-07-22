@@ -3,7 +3,7 @@
   width: 623px;
   display: flex;
   justify-content: space-between;
-  transition: all ease-in-out .4s;
+  transition: all ease-in-out 0.4s;
 }
 
 .topHeader-item {
@@ -29,7 +29,7 @@
   font-size: 16px;
   line-height: 19px;
   text-transform: uppercase;
-  color: #1F2B6C;
+  color: #1f2b6c;
 }
 .topHeader-item-text {
   font-family: "Work Sans", sans-serif;
@@ -39,7 +39,16 @@
   line-height: 19px;
   color: #159eec;
 }
-
+.topHeader-item .phone {
+  width: 41px;
+  height: 39px;
+}
+.topHeader-item .phone path {
+  stroke: #159eec;
+}
+.topHeader-item .phone .avize {
+  stroke: #1F2B6C
+}
 @media screen and (max-width: 600px) {
   .topHeader {
     width: 375px;
